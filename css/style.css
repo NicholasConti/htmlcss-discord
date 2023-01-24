@@ -5,34 +5,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
-/* 
-DEBUG 
-*/
-/* 
-
-.debug .colcontainer{
-     height: 570px;
-}
-
-.debug .col1{
-    background-color: #f08080;
-    border: 2px dashed black;
-}
-
-.debug .col2{
-    background-color: #20b2aa;
-    border: 2px dashed black;
-}
-
-.debug .footerbot > div{
-    background-color: #7fffd4;
-}
-
-.debug .footerbot > div > div{
-    background-color: #ffb6c1;
-    border: 1px dashed black;
-} */
 /* -------------------------------------------------------------------------------- */
 /* COMMON */
 .container{
