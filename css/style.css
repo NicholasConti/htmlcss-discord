@@ -175,8 +175,8 @@ main .row:nth-child(even) .container{
 .block{
     display: flex;
     flex-direction: column;
-   text-align: center;
-   width: 60%;
+    text-align: center;
+    width: 60%;
 }
 
 h3{
@@ -229,16 +229,16 @@ footer .footertop{
     flex-basis: 25%;
 }
 
-/* FOOTERBOTTOM
+/* FOOTERBOTTOM */
 .footerbot{
     padding-top: 30px;
-    
+    margin: 0 auto;
 }
 
 .footerbot > div{
     margin: 0 auto;
     padding: 10px 0;
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -246,4 +246,4 @@ footer .footertop{
 
 .footerbot > div > div{
     padding: 5px;
-} */
+}
