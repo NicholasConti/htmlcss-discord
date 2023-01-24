@@ -10,17 +10,6 @@
 DEBUG 
 */
 
-
-.debug .header-bot{
-    height: 500px;
-    /* background-color: #00008b; */
-}
-
-.debug .header-bot div{
-    height: 400px;
-    /* background-color: #ee82ee; */
-}
-
 .debug .cube1{
     background-color: #1e90ff;
     height: 500px;
@@ -61,19 +50,26 @@ DEBUG
     justify-content: center;
     align-items: center;
 }
+
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
 /* --------------------------------------------------------------------------------- */
 
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     color: white;
+    padding-bottom: 120px;
 }
 /* HEADER TOP*/
 .header-top{
     padding: 10px 0;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .logo{
@@ -82,17 +78,8 @@ header{
 
 .login{
     width: 10%;
-    text-align: right;
-      
+    text-align: right;    
 }
-
-.login > span{
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 20px;
-}
-
 
 .link{
     width: 80%;
@@ -112,11 +99,32 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
+    line-height: 40px;
 }
 
 .header-bot div{
     width: 50%;
-    }
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 25px;
+    font-size: 50px;
+}
+
+.header-bot div p{
+    font-size: 20px;
+}
+
+span{
+    margin-left: 20px;
+}
+
+span.button.openbw{
+    background-color: #23272a;
+    color: white;
+}
 
 /* MAIN */
 main{
